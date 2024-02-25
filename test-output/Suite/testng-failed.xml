@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="androidtest.TestClass">
+        <methods>
+          <include name="ClearData"/>
+          <include name="delete"/>
+          <include name="Division"/>
+          <include name="TestAddition"/>
+          <include name="TestMultiplication"/>
+          <include name="TestSubtraction"/>
+          <include name="startUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- androidtest.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
